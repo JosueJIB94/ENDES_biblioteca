@@ -14,6 +14,7 @@ public class Libro {
 		this.title = title;
 		this.autores = autores;
 	}
+	
 	public String getIsbn() {
 		return isbn;
 	}

@@ -22,7 +22,7 @@ public class Autor {
 
 	/**
 	 * 
-	 * @param como parametro el nombre del autor para modificarlo
+	 * @param name Como parametro el nombre del autor para modificarlo
 	 */
 	public void setName(String name) {
 		this.name = name;
