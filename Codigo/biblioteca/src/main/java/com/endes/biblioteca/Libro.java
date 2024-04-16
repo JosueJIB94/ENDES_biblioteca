@@ -2,17 +2,17 @@ package com.endes.biblioteca;
 
 import java.util.List;
 
-public class Libro {
+public abstract class Libro {
     private String isbn;
     private String title;
-    private List<Autor> autores;
+
     
     
-	public Libro(String isbn, String title, List<Autor> autores) {
+	public Libro(String isbn, String title) {
 		super();
 		this.isbn = isbn;
 		this.title = title;
-		this.autores = autores;
+
 	}
 	
 	public String getIsbn() {
@@ -26,12 +26,6 @@ public class Libro {
 	}
 	public void setTitle(String title) {
 		this.title = title;
-	}
-	public List<Autor> getAutores() {
-		return autores;
-	}
-	public void setAutores(List<Autor> autores) {
-		this.autores = autores;
 	}
 
     
